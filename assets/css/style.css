@@ -3,37 +3,41 @@
   padding: 0;
   margin: 0;
 }
-
+/* setting up the body color */
 body {
   background-color: #d9dcd6;
 }
 
+/* Stablishing headet style, background color, font color and family, lastly a padding of 20px */
 .header {
-  /* height: auto; */
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: #2a607c;
   color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
+/* Styling only the H1 inside of header */
 .header h1 {
   display: inline-block;
   font-size: 48px;
 }
-
-.header h1 .seo {
-  color: #d9dcd6;
+/* styling the .seo inside of the h1 */
+.seo {
+  color: #b7bbb3;
 }
 
-.header div {
+/* family font applies first type, if not available the second one and so on */
+.navmenu {
   padding-top: 15px;
-  margin-right: 20px;
   float: right;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
-
+/* removing dot from item in nav */
 .header div ul {
   list-style-type: none;
   display: inline-block;
@@ -64,27 +68,27 @@ p {
 
 .float-left {
   float: left;
-  margin-right: 25px;
+  /* margin-right: 10px; */
 }
 
 .float-right {
   float: right;
-  margin-left: 25px;
+  /* margin-left: 10px; */
 }
-
+/* styling left side */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
-
+/* styling right column */
 .benefits {
   margin-right: 20px;
   padding: 20px;
   clear: both;
   float: right;
   width: 20%;
-  height: 100%;
+  height: auto;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2579a7;
 }
@@ -136,34 +140,53 @@ p {
   margin: 10px auto;
   max-width: 150px;
 }
-
+/* styling left side of main */
 .search-engine-optimization {
   margin-bottom: 20px;
   padding: 50px;
-  height: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.search-engine-optimization div {
+  width: 50%;
 }
 
 .online-reputation-management {
   margin-bottom: 20px;
   padding: 50px;
-  height: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.online-reputation-management div {
+  width: 50%;
 }
 
 .social-media-marketing {
   margin-bottom: 20px;
   padding: 50px;
-  height: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
+.social-media-marketing div {
+  width: 50%;
+}
 .search-engine-optimization img {
   max-height: 200px;
 }
@@ -174,7 +197,7 @@ p {
 
 .social-media-marketing img {
   max-height: 200px;
-}
+  }
 
 .search-engine-optimization h2 {
   margin-bottom: 20px;
@@ -190,7 +213,7 @@ p {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
+/* styling footer */
 .footer {
   padding: 30px;
   clear: both;
