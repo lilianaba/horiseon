@@ -1,4 +1,4 @@
-# 01 HTML, CSS, and Git: Code Refactor
+# Horiseon Code Refactor
 ## Live Site
 [Live Site](https://lilianaba.github.io/horiseon/)
 
