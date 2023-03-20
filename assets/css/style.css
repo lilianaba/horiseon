@@ -22,8 +22,9 @@ body {
 
 /* Styling only the H1 inside of header */
 .header h1 {
-  display: inline-block;
+  display: flex;
   font-size: 48px;
+  list-style-type: none;
 }
 /* styling the .seo inside of the h1 */
 .seo {
@@ -36,6 +37,8 @@ body {
   float: right;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
+  list-style-type: none;
+
 }
 /* removing dot from item in nav */
 .header div ul {
@@ -43,14 +46,16 @@ body {
   display: inline-block;
 }
 
-.header div ul li {
+.navmenu ul li {
   display: inline-block;
   margin-left: 25px;
+  list-style-type: none;
 }
 
 a {
   color: #ffffff;
   text-decoration: none;
+  list-style-type: none;
 }
 
 p {
