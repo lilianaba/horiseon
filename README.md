@@ -1,4 +1,6 @@
 # 01 HTML, CSS, and Git: Code Refactor
+## Live Site
+[Live Site](https://lilianaba.github.io/horiseon/)
 
 ## Challenges in This Course
 
